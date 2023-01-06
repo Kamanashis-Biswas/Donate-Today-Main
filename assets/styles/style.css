@@ -1,35 +1,36 @@
-*{
+* {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
 /* Bannar Style */
-.banner{
-background-image: url('../images/donation1.jpg');
-position: absolute;
-background-repeat: no-repeat;
-background-size: cover;
+.banner {
+    background-image: url('../images/donation1.jpg');
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 }
 
-.banner-content{
+.banner-content {
     margin: 174px 550px;
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 
-.banner-title{
-    font-size:65px;
-    color:#FFFFFF;
+.banner-title {
+    font-size: 65px;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
-.btn-primary{
+.btn-primary {
     height: 64px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -38,3 +39,69 @@ background-size: cover;
     border: none;
     padding: 10px 35px;
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.donate-today {
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+
+.donate-today .section-description {
+    padding: 0 335px;
+}
+
+.donate-value {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.tk {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    justify-content: center;
+}
+
+.active {
+    color: tomato;
+    border: 3px solid tomato;
+    padding: 20px 20px;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+
+.donate-today h6 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    color: #B3B3B3;
+}
+.donate-today hr {
+    width: 765px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
