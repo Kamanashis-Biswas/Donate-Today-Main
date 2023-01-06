@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Bannar Style */
+.banner{
+background-image: url('../images/donation1.jpg');
+position: absolute;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.banner-content{
+    margin: 174px 550px;
+    position: relative;
+    text-align: center;
+}
+
+.banner-title{
+    font-size:65px;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #FD6E0A;
+    border: none;
+    padding: 10px 35px;
+}
