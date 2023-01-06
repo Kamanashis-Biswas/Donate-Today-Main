@@ -48,7 +48,6 @@ main {
 .section-title {
     font-size: 45px;
     font-weight: 700;
-    text-align: center;
     color: #121212;
     margin-bottom: 20px;
 }
@@ -57,12 +56,21 @@ main {
     font-size: 18px;
     color: #707070;
     margin-bottom: 50px;
-    padding: 0 335px;
+   
+}
+
+.our-donate-plan{
+    text-align: center;
 }
 
 .donate-today {
     margin-top: 130px;
     text-align: center;
+
+}
+
+.donate-today .section-description{
+    padding: 0 335px;
 }
 
 
@@ -78,7 +86,8 @@ main {
     font-size: 30px;
     font-weight: 700;
     color: #707070;
-    justify-content: center;
+    padding: 20px 20px;
+    background: #FAFAFA;
 }
 
 .active {
@@ -106,6 +115,10 @@ main {
     margin-top: 130px;
 }
 
+.our-donate-plan .section-description{
+padding: 0 335px;
+}
+
 .donate-container{
 display: flex;
 gap: 47px;
@@ -123,4 +136,80 @@ gap: 47px;
     font-weight: 600;
     color: #121212;
     margin-bottom: 16px;
+}
+
+.live-depend {
+    display: flex;
+    margin-top: 139px;
+    gap: 83px;
+}
+
+.live-depend .section-title {
+    margin-top: 60px;
+}
+
+.live-depend-left {
+    width: 493px;
+    height: 374px;
+}
+
+.live-depend-description {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.live-depend img {
+    width: 465px;
+    height: 477px;
+}
+
+.get-update {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.get-update .section-description {
+    width: 690px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.get-update .email {
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px 190px;
+}
+
+.get-update .email {
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px 190px;
+    background: #FFF4D6;
+}
+
+input[type="email"] {
+    height: 60px;
+    width: 432px;
+}
+
+.get-update>button{
+    margin-left: -10px;
+}
+
+.footer{
+    text-align: center;
+    background: #0B0D17;
+}
+
+.footer .info {
+    padding: 43px 0;
+}
+.footer .text-one{
+    font-size: 36px;
+    color: #FF5959;
+    margin-bottom: 20px
+}
+.footer .text-two{
+    color: #D9DBE1;
+    font-size: 14px;
 }
